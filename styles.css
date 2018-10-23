@@ -1,0 +1,108 @@
+
+.pushLeft {
+    margin-left: 10%;
+    
+}
+
+.firstCat:hover, .secondCat:hover {
+    opacity: .5;
+}
+
+.flash-img {
+    opacity: 1;
+    -webkit-animation: flash .1s;
+    animation: flash .1s;
+}
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+h6 {
+    font-size: 16px;
+}
+
+body {
+    background: url(https://images.unsplash.com/photo-1436891620584-47fd0e565afb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=701d98c9e526361b6231671b6b58f5ac&auto=format&fit=crop&w=400&q=60);
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.firstCat {
+    background: url(https://www.telegraph.co.uk/content/dam/pets/2017/01/06/1-JS117202740-yana-two-face-cat-news_trans_NvBQzQNjv4BqJNqHJA5DVIMqgv_1zKR2kxRY9bnFVTp4QZlQjJfe6H0.jpg?imwidth=450);
+    height: 300px;
+    width: 450px;
+    cursor: pointer;
+
+}
+
+.secondCat {
+    background: url(https://images.boredomfiles.com/wp-content/uploads/sites/5/2016/12/Eye-Cat-2-_crop.png);
+    height: 300px;
+    width: 450px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.relative-position{
+    position: relative;
+}
+
+.center {
+    text-align: center;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    font-size: 18px;
+}
+
+.img-left{
+  display: inline;
+  width: 425px;
+   height: 250px; 
+  margin: 1em;
+
+}
+
+.color-white {
+    color: white
+}
+
+.clearfix {
+    clear: both;
+}
+
+.footer {
+    padding-top: 250px;
+    text-align: right;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
+        crossorigin="anonymous">
+        <!-- style.css -->
+        <link rel="stylesheet" href="styles.css">
+    <title>Cat Clicker</title>
+</head>
+
+<body>
+    <div class='color-center img-left'>
+        <h1 style= "color:white; font-family: bradley-hand, cursive;" class=" ">Cat Clicker</h1>
+        <div style="background-color:black;
+        padding:10px; margin-bottom: 50px"></div>
+    </div>
+   
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class='color-center img-left '>
+                    <h5 style="color: white; font-family: Trattatello, cursive;">Name: Two Face</h5>
+                    <div id= "my-elem" onmousedown="mDown(this)" onmouseup="mUp(this)" onclick='onClick1()' class="relative-position firstCat">
+                    <h1 class="bottom-right">Click Me</h1>
+                </div>
+
+                    <br>
+                    
+                    <p class='clearfix' style="color:gold; font-family: Trattatello, cursive;">Clicks: <span id="clicks">0</span></p>
+                           
+                    
+                </div>              
+            </div>
+
+              <div class="col-sm">
+                  <!-- second pic -->
+    <div class='color-center img-left'>
+            <h5 style="color: white; font-family: Trattatello, cursive;">Name: All Eyezzz</h5>        
+            <div id= "my-elem2" onmousedown="mDown(this)" onmouseup="mUp(this)" onclick='onClick2()'class="relative-position secondCat" >
+                <h1 class="bottom-right">Click Me</h1>
+                </div>
+        <br>
+            <p class='clearfix' style="color:gold; font-family: Trattatello, cursive;">Clicks: <span id="clicks2">0</span></p>
+            </div>
+            </div>
+              
+            </div>
+            </div>
+            <h6 class='footer' style="color: gold; font-style: italic;">Web page by O.G. Enterpise. <br>  <strong>ogenterpise.com</strong></h6>
+    <script src="main.js"></script>
+</body>
+</html>
